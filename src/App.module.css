@@ -1,0 +1,38 @@
+  .app {
+    background-color: #f8f9fa;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    margin-bottom: 20px;
+  }
+  .app {
+    padding: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .row {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .col-md-8, .col-md-4 {
+      flex: 1;
+    }
+  
+    .col-md-8 {
+      order: 1;
+    }
+  
+    .col-md-4 {
+      order: 2;
+    }
+  }
+  
+   
+     

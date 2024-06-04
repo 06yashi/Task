@@ -1,0 +1,24 @@
+.welcome {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .welcome h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .welcome p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .welcome p strong {
+    color: #000;
+  }
+  
+  .welcome p span {
+    color: #28a745; /* Green color for "very good" */
+  }
+  

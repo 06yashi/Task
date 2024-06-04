@@ -1,0 +1,126 @@
+ /* .workingHours {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  flex: 1;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.dropdown {
+  background-color: #ffedd5;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.progressCircle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circle {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: conic-gradient(#3b82f6 0% 84%, #e5e7eb 84% 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerCircle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.labels {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.labelProgress {
+  color: #f59e0b;
+}
+
+.labelDone {
+  color: #3b82f6;
+}  */
+
+.workingHours {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  flex: 1;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.dropdown {
+  background-color: #ffedd5;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.progressCircle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circle {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: conic-gradient(#3b82f6 0% 84%, #e5e7eb 84% 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerCircle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.labels {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.labelProgress {
+  color: #f59e0b;
+}
+
+.labelDone {
+  color: #3b82f6;
+}
+

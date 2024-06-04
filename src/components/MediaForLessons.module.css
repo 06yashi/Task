@@ -1,0 +1,81 @@
+.mediaForLessons {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.viewAll {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.mediaList {
+  display: flex;
+  flex-direction: column;
+}
+
+.mediaItem {
+  display: grid;
+  grid-template-columns: 50px 1fr 150px 100px 80px;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.itemLabel {
+  display: flex;
+  justify-content: center;
+}
+
+.label {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+}
+
+.A1 { background-color: #f28b82; }
+.B1 { background-color: #aecbfa; }
+.C1 { background-color: #fbbc04; }
+.A2 { background-color: #ccff90; }
+
+.itemInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin: 0;
+  font-weight: bold;
+}
+
+.file {
+  color: #6b7280;
+}
+
+.itemAccess {
+  text-align: center;
+}
+
+.edit {
+  color: #fbbc04;
+}
+
+.itemMembers {
+  text-align: center;
+  color: #6b7280;
+}
+
+.itemSize {
+  text-align: center;
+  color: #6b7280;
+}

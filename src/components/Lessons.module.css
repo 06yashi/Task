@@ -1,0 +1,108 @@
+/* .lessonsContainer {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-top: 20px;
+}
+
+.lesson {
+  border-bottom: 1px solid #f0f0f0;
+  padding: 10px 0;
+}
+
+.lesson:last-child {
+  border-bottom: none;
+}
+
+.lessonHeader {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.lessonParticipants {
+  display: flex;
+} */
+
+
+.lessonsContainer {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-top: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.viewAll {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.lesson {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 10px 0;
+}
+
+.lesson:last-child {
+  border-bottom: none;
+}
+
+.lessonHeader {
+  display: flex;
+  flex-direction: column;
+}
+
+.lessonTitle {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.label1 { border-left: 4px solid #f28b82; }
+.label2 { border-left: 4px solid #aecbfa; }
+
+.lessonTime {
+  color: #6b7280;
+}
+
+.lessonParticipants {
+  display: flex;
+}
+
+.participantImage {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.lessonActions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lessonButton {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-size: 20px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
